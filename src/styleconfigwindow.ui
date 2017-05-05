@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StyleConfigWindow</class>
+ <widget class="QDialog" name="StyleConfigWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>202</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Configurar alertas</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="3" colspan="2">
+    <widget class="QSpinBox" name="alerta_tam_max"/>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Tamaño mínimo</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3" colspan="2">
+    <widget class="QSpinBox" name="alerta_tam_min"/>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Máxima cantidad</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3" colspan="2">
+    <widget class="QSpinBox" name="alerta_max_cant"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Color</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3" colspan="2">
+    <widget class="QComboBox" name="alerta_color">
+     <item>
+      <property name="text">
+       <string>Rojo</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Azul</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blanco/Negro</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="5" column="4">
+    <widget class="QPushButton" name="aceptar">
+     <property name="text">
+      <string>Aceptar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="label_6">
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Fuente</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Tamaño máximo</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>aceptar</tabstop>
+  <tabstop>alerta_max_cant</tabstop>
+  <tabstop>alerta_tam_max</tabstop>
+  <tabstop>alerta_tam_min</tabstop>
+  <tabstop>alerta_color</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

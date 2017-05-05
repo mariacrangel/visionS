@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Manual</class>
+ <widget class="QDialog" name="Manual">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>915</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>915</width>
+    <height>570</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>915</width>
+    <height>570</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Manual</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="3">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Página 1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="6">
+    <widget class="QPushButton" name="pushButton">
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Cerrar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="minimumSize">
+      <size>
+       <width>22</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>22</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="minimumSize">
+      <size>
+       <width>22</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>22</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="6">
+    <widget class="QTextEdit" name="page">
+     <property name="minimumSize">
+      <size>
+       <width>700</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>700</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAsNeeded</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContents</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;vCenterViewer&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Manual&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;0. Inicio&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cuando se inicia el vCenterViewer, se deben configurar algunos parametros iniciales locales, que se guardan y cargan de los archivos de configuración del sistema.&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/manual/configuraciones_iniciales.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;0.1 IP Key Manager&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;La IP en que se inició el programa vKey (si es el mismo ordenador, la IP será 127.0.0.1). El vKey es el programa que controla la licencia de todos los demas programas de VisionStudio. Si el vKey no se encuentra activo, el vCenterViewer no puede iniciar. Además, el vCenterViewer prueba conectar con el vKey periódicamente, y si no puede hacerlo se cierra automáticamente.  Por defecto el puerto de comunicación que utiliza el vKey es el 1883. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;0.2 IP Mongo DB&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;La IP en que se encuentra la base de datos donde se guarda toda la información del sistema y los eventos. Se utiliza una única base de datos a la que se conectan todos los programas y todos los ordenadores. Por defecto, el puerto que utiliza MongoDB para conectar con las bases de datos es 27017.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;0.3 Carpeta de snapshots&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Elija una carpeta donde se guardaran todas las imagenes de los snapshots, junto con la hora exacta y el nombre de la cámara correspondiente.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;0.4 Carpeta de Logs&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Elija una carpeta donde se guardaran los archivos de Logs. Los logs contienen toda la información de la actividad realizada por los usuarios en el vCenterViewer, y además contienen información extra que sirve para obtener ayuda de los desarrolladores en caso de que ocurra algún error en la aplicación. Los logs son archivos de texto y se guardan uno por día. Mientras la carpeta donde se guarden sea la misma, desde el vCenterViewer se pueden leer los logs del mismo día y de los días anteriores.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;1. Usuarios &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;1.1 Inicio de sesión&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;Al iniciar el VCenterViewer, debe ingresarse un usuario y contraseña válidos. Los usuarios se crean únicamente por la interfaz web.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/manual/inicio_de_sesion.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;1.2 Guardar datos&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;Las grillas, ventanas y emaps que el usuario cree, asi como las configuraciones de playback, le pertenecen solamente a ese usuario y se guardan en la base de datos inmediatamente cada vez que hay un cambio.&lt;br /&gt;Esto es, cuando un usuario cierra sesión se guardan todas las visualizaciones, y cuando vuelve a iniciar sesión vuelve a ver las mismas grillas y emaps.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600;&quot;&gt;1.3 Permisos&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;Cuando se crea un usuario desde la interfaz web, se pueden cambiar los permisos del mismo y las cámaras asignadas.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;Cada usuario tiene un conjunto de grupos de cámaras disponibles para visualizar, y tiene permisos distintos para cambiar las configuraciones globales y las configuraciones de las cámaras.&lt;br /&gt;&lt;br /&gt;Los permisos son:&lt;br /&gt;- Cambiar configuraciones globales&lt;br /&gt;- Configuraciones avanzadas de cámaras: comprende todas las configuraciones de las cámaras. Además, se permite crear nuevas cámaras y grupos.&lt;br /&gt;- Configuraciones básicas de cámaras: comprende solo las configuraciones de visualización y de PTZ.&lt;br /&gt;- Retransmitir videos.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;2. Interfaz&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;La interfaz del VCenterViewer esta compuesta por:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;- La barra de menú.&lt;br /&gt;- Una lista de grupos de cámaras en la parte izquierda, con la cual se puede agregar, quitar y modificar cámaras y grupos si se tienen los permisos. Tambien se permite arrastrar las cámaras a las grillas para visualizarlas.&lt;br /&gt;- Un cuadro de pestañas en el centro, que agrupa las pestañas de grillas y emaps del usuario. Ver secciones Grillas y Emaps.&lt;br /&gt;- Una barra de accesos rápidos, que contiene algunas funciones que estan disponibles tambien en la barra de menú. Ésta se puede esconder o mover a gusto.&lt;br /&gt;- Un Dock con la lista de alertas. Ver sección Alertas.&lt;br /&gt;- Un Dock para el manejo PTZ de las cámaras Onvif.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;Las configuraciones de las grillas y emaps se guardan por usuario, en la base de datos. Mientras que las configuraciones de colores y del dock de alertas se guarda en los archivos locales de configuración. &lt;br /&gt;Los docks pueden ocultarse, moverse, personalizarse y cambiar de monitor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;3. Grupos  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;Los grupos son contenedores de cámaras, y de otros grupos.&lt;br /&gt;Se puede crear un sub-grupo de un grupo ya existente, haciendo clic derecho sobre el mismo. &lt;br /&gt;Cuando se crea un grupo, tiene un nombre y un ícono por defecto, que pueden cambiarse. Al hacer clic derecho sobre el nombre de un grupo, aparecen las opciones de cambiar el nombre o el ícono. Hay algunos nombres que estan reservados y además los nombres de grupos no se pueden repetir. Mas aún, entre los nombres de grupos, cámaras, grillas y emaps no puede haber ningún nombre repetido.&lt;br /&gt;&lt;br /&gt;Los grupos se pueden eliminar haciendo clic derecho sobre el nombre. Para eliminar un grupo, este no debe contener ninguna cámara y ningún otro grupo.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;4. Cámaras &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.1 Crear cámaras&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para crear una cámara, si se tienen los privilegios, se debe hacer clic derecho sobre el nombre de un grupo. Se abrirá una ventana nueva con las configuraciones de la cámara, divididas en las secciones:&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.1.1 Generales&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Nombre: El nombre que aparecerá en la lista de grupos y cámaras, en la interfaz. No puede contener espacios, y no puede repetir el nombre de alguna otra cámara, grupo, grilla o emap.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Dirección: Dirección RTSP o HTTP para conectarse con el stream de la cámara.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Espejar y rotar: Habilita o deshabilita las transformaciones visuales de la cámara. \n - Buscar: \n Cuando no se conoce la dirección rtsp o http de una cámara , se la puede buscar ingresando la ip, puerto, usuario, password y la marca fabricante de la cámara. Al hacer clic en el botón de buscar, se lee una lista de posibles direcciones para esa cámara, de un archivo llamado sources. Puede tardar varios minutos en encontrar las direcciones. \n \n Si se desconoce la marca del fabricante puede ponerse la opción Desconocido, pero se tarda mas en encontrar las direcciones. Cuando encuentre direcciones válidas, se debe hacer doble clic para seleccionarla y previsualizarla.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.1.2 Recorte&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Esta pestaña aparece solo cuando se crea una subcámara, para elegir la parte de la cámara padre que va a tomar la subcámara.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.1.3 Grabar video&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; - Grabar: Habilita o deshabilita la grabación de la cámara&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; - Disminuir FPS: Si esta activado, los fps de los videos que se graben de esa cámara disminuyen considerablemente. Esto significa que los videos resultantes se verán mucho menos fluidos, pero el tamaño en disco que ocuparán sera mucho menor.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Grabar en ciclos: Si se activa esta opción, se puede elegir un tamaño máximo de espacio que ocuparán los videos de la cámara. Al superar este espacio, se reemplazan los videos mas antiguos.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Programado: si se activa esta opción, se puede elegir los días y horarios en que se va a grabar la cámara. Si esta deshabilitada esta opción, se graba siempre. Use el Ctrl+Clic Izquierdo para seleccionar y deseleccionar bloques por areas en la ventana de Modificar Scheduler.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Detectar movimiento: Si se activa esta opción, solo se grabará la cámara cuando se detecte algún movimiento.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Usar máscara: Si esta activada esta opción, se detectará movimiento solamente en el área seleccionada en azul en Definir máscara. Para seleccionar el área use el clic derecho e izquierdo del ratón.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Sensibilidad: Sensibilidad de la detección de movimiento. Mientas mayor sea la sensibilidad, se detectarán movimientos menores, pero puede detectar movimiento que no sean de interés (movimiento de hojas por el viento, por ejemplo). Si la sensibilidad es muy baja, solo detectara movimientos grandes.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Umbral: Define la diferencia en colores que debe haber para considerar que hay movimiento.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Fotogramas: Define la cantidad de fotogramas hacia atras que se ven para detectar el movimiento. Si los fotogramas son pocos, los movimientos mas lentos se vuelven inperceptibles. Mientras que una mayor cantidad de fotogramas permite percibir movimientos mas largos en el tiempo, pero tambien los cambios de luz del día.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Nota: los valores por defecto de la sensibilidad, umbral y fotogramas fueron probados en cámaras HD para la detección de peatones, perros y vehículos en movimiento.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.1.4 Alertas&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Recibir alertas: Si esta opción esta activa, se vinculará esta cámara con una instancia de alguna otra aplicación para recibir y guardar alertas.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Nombre de Instancia: El nombre con el que se llama a la instancia creada en la otra aplicación.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- IP: Dirección IP donde esta ejecutando la otra aplicación.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-Producto: Seleccione de la lista, el producto que le corresponde a la otra aplicación de la cual recibirá las alertas. Si la lista aparece vacía, es porque aún no se cargaron los productos de la base de datos, cierre y vuelva a abrir la ventana de creación de la cámara. Sólo apareceran los productos para los cuales posee licencias activas.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Abajo aparecerá una lista con los tipos de alertas, los cuales puede filtrar para recibirlas selectivamente.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Enviar alertas: Agregue direcciones de correo y usuarios de telegram para que reciban ,por esos medios, las alertas. Agregue la cantidad que quiera.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para SMTP, las direcciones deben tener la forma completa: mail@mail.com. Y para Telegram, debe colocar el nombre de usuario con el cual inicia sesión y NO el nombre público (por ejemplo, jperez puede ser el nombre de usuario y Juan Perez el nombre publico del perfil).&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.1.5 PTZ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Activar PTZ: Si esta opción esta activa y los datos de conexión son correctos, podrá manejar el PTZ y los Tour de la cámara.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Conexión: IP y puerto de conexión ONVIF de la cámara. El puerto no es el mismo que se utiliza para obtener el stream, y suele ser 80.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Autenticación: Usuario y contraseña para conectarse a la cámara. Pueden ser distintos a los que usa para conectarse al stream. Si no le funcionan los mismos, pruebe usar la contraseña y/o usuario &amp;quot;admin&amp;quot;.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Velocidad: La velocidad con la que se moverá o cambiará el zoom la cámara.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Tiempo de movimiento (en segundos): el tiempo que se moverá la cámara cada vez que reciba una instrucción.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Tour:  En esta ventana podrá ver los presets de la cámara, moverla, crear nuevos presets, y definir un tour.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para crear un preset nuevo primero mueva la cámara hacia la posición que quiera, escriba un nombre válido y presione &amp;quot;Nuevo Preset&amp;quot;. Luego Actualize la lista de presets para verlo.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para crear un tour (recorrido), agregue los presets en orden en la lista derecha. Cada cámara puede guardar un tour.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para detener un tour, basta con mover la cámara hacia cualquier posición. El tour puede volver a iniciarse con las mismas configuraciones en cualquier momento.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Tiempo de permanencia (en segundos): Tiempo que permanecerá la cámara en cada preset cuando esté realizando el tour.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.2 Subcámaras&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Una subcámara o substream es simplemente un recorte de una cámara, que tiene sus propias configuraciones de grabacion y alertas. Comparte las configuraciones generales (excepto el nombre) y de PTZ de su cámara padre. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para crear una subcámara debe hacer clic derecho en el nombre de la camara padre en la lista de grupos y camaras. Se habilitará la pestaña de Recorte, en la que debe dibujar con el ratón un rectángulo del área que abarcará la nueva subcámara.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;5. Buscar dispositivos &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hay dos formas de buscar dispositivos:&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;5.1 Búsqueda rápida&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Desde la barra de accesos rápidos o en Herramientas-&amp;gt;Buscar dispositivos puede buscar todos los dispositivos ONVIF que se encuentren conectados en la red.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;5.2 Buscar direcciones de stream&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Desde la ventana de creación de cámaras, puede buscar las direcciones RTSP o HTTP de cualquier cámara, ya sea ONVIF o no. Para esto necesita la IP, puerto (si es ONVIF generalmente el puerto es el 554), y un usuario y password con los permisos necesarios. Luego de setear estos parámetros, haga clic en el botón buscar. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Si conoce el fabricante de la cámara, la búsqueda será mucho mas rápida. De lo contrario, puede llegar a tardar unos minutos en encontrar la dirección de la cámara. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Puede arrojar varios resultados para una misma cámara, y cada uno de ellos puede tener diferentes configuraciones de resolución, calidad y formato.&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;6. Grillas &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Puede crear nuevas grillas desde el menú de accesos rápidos o en Inicio-&amp;gt;Nuevo-&amp;gt;Grilla. Las grillas se crearán con un nombre por defecto que puede cambiarse desde el menú de clic derecho dentro de la grilla.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Antes de visualizar cámaras en la grilla, debe seleccionar el tipo, utilizando los botones con dibujos de grillas en la parte inferior.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para visualizar cámaras debe primero crearlas y luego arrastrarlas desde la lista de grupos y cámaras. Las cámaras en la grilla se pueden arrastrar para copiar, mover o reemplazar.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Desde el menu de clic derecho se pueden realizar otras acciones en la grilla:&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Zoom: Puede hacer un zoom rápido x2 o x4 en el lugar donde se hizo el clic derecho, y deshacerlo luego desde el mismo menu. El zoom solo se activa en la casilla seleccionada.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Capturar imagen: se guarda una imagen de la cámara seleccionada (en tamaño original) en la carpeta de snapshots. El nombre de las imagenes guardadas contendrá la hora y nombre de la cámara.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Independizar grilla: Elimina la pestaña de la grilla en la ventana principal y crea una copia de la grilla en una nueva ventana independiente, con las mismas funciones. Si esta nueva ventana se cierra, ya no se podrá recuperar. Para guardar la ventana independiente cuando cierre la sesión, debe cerrar la aplicacion desde la ventana principal.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Mostrar u ocultar barra de playback: Si la cámara que esta siendo visualizada tiene activo el playback, muestra una barra de tiempo cuyo tamaño depende del tamaño del buffer de playback. Por defecto, se muestra la imagen actual de la cámara, y si se mueve la barra hacia la izquierda se mueve atras en el tiempo, segundo a segundo.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;El playback se activa o desactiva haciendo clic derecho sobre el nombre de la cámara en la lista de grupos y camaras, y se configura desde Herramientas-&amp;gt;Configuraciones de playback.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;7. EMaps &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Puede crear nuevas pestañas de EMaps desde el menú de accesos rápidos o en Inicio-&amp;gt;Nuevo-&amp;gt;EMap. El emap mostrará, en un principio, una imagen de muestra.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Se puede cambiar la imagen del EMap desde el menu del clic derecho dentro de la pestaña del EMap o arrastrando un archivo de imagen hacia la imagen actual.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pueden crearse cuantos EMaps se quieran y cada uno puede tener imagenes y cámaras distintas.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Se pueden arrastrar las cámaras hacia la imagen del EMap desde la lista de grupos y cámaras. Los nombres de las cámaras se dibujan en la imagen.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Al hacer clic izquierdo sobre el nombre de una cámara en la imagen, la misma se puede previsualizar en un tamaño fijo. &lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;8. Logs &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cada accion que el usuario activo realiza durante la ejecución del vCenterViewer es guardada localmente en archivos de texto con el nombre de logs. Se crea automáticamente un archivo por día y se puede acceder a ellos desde cualquier gestor de archivos o desde el mismo vCenterViewer, en la barra de accesos rápidos o en Herramientas-&amp;gt;Logs.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Los archivos de logs contienen, ademas, la hora exacta en la que se ejecutó cada acción. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Estos archivos sirven tambien como una ayuda ante algún error que ocurra. Si el programa tiene algun error o se cierra inesperadamente, acuda a la ayuda de los desarrolladores con los archivos de log a mano.&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;9. Configuraciones globales &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Las configuraciones globales se guardan en la base de datos y abarcan a todas las instancias de vCenterViewer y vCenterManager en el sistema. Se necesitan privilegios especiales para modificarlas.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para modificar las configuraciones globales, se debe acceder desde Herramientas-&amp;gt;Configuraciones o desde el menú de accesos rápidos.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Entre las configuraciones globales estan las de grabación: El tiempo de duración de cada archivo de video y la carpeta compartida donde se guardarán.&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;10. Retransmiticiones &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;La retransmisión de un stream de video sirve para disminuir el tiempo de obtención de las imagenes de las cámaras que se encuentran alejadas espacialmente. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cuando se retransmite un stream de una cámara de forma local, se gana en tiempo de espera, flujo de red y se obtiene una cantidad ilimitada de peticiones.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Los re-streams se hacen desde el vCenterManager pero se configuran desde el vCenterViewer.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para iniciar o detener un re-stream, se debe acceder a la ventana de Retransmisiones desde el menu de accesos rápidos o desde Herramientas-&amp;gt;Retransmitir videos.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para configurar un re-stream se necesita una dirección RTSP o HTTP de donde se obtiene el video y un nombre para identificar el re-stream.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Una vez que se empieze a retransmitir, podrá ver en la tabla la dirección nueva de video.&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;Errores comunes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QListWidget" name="list">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>500</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Usuarios</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Interfaz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grupos</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Camaras</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PTZ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Buscar dispositivos</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grillas</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Emaps</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Logs</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Configuraciones globales</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Re-streaming</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Errores comunes</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="4">
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Siguiente</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="5">
+    <widget class="QLabel" name="title">
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Anterior</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

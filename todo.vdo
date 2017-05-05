@@ -1,0 +1,23 @@
+NewFeature High Eliminar dispositivo dahua
+NewFeature High Configurar dispositivo dahua (scheduler, play, nombre de canales etc.
+NewFeature High Enviar mensaje de configuracion/eliminar de dispositivos dahua
+Error High no dejar que las camaras/grillas/emaps/grupos empiecen con numeros, solo los nvr
+NewFeature Medium Agregar foco/iris al ptz
+Error Medium Se cierra inesperadamente a veces al cerrar una ventana independiente
+Error Medium A veces se cargan mal los parametros de timeout y velocidad de ptz en mongo
+NewFeature Medium Chequear la conexion con mongo en todas las funciones
+NewFeature Medium Subcamaras: cargar y gusrdar recorte de las subcamaras
+Error Medium A veces no se previsualizan las camaras en la ventana de configuracion
+NewFeature Medium Reincorporar ventana independiente
+NewFeature Medium Independizar y reincorporar emaps
+NewFeature Medium Mostrar REC: recibir del manager o del nvr/dvr si las camaras se estan grabando
+NewFeature Medium Poner ventana de carga
+NewFeature Medium manual
+NewFeature Medium videotutorial
+NewFeature Low Mas variantes de sonidos para las alertas
+NewFeature Low Recuperar camaras con estado 0 en la base de datos
+NewFeature Low Capturar snapshots cuando hay zoom o cuando es un substream
+NewFeature Low Permitir configurar la letra y color de los nombres de las camaras en las grillas
+NewFeature Low Boton de agregar camara en la ventana de buscar dispositivos
+NewFeature Low Control de descanso y control de guardia
+NewFeature Low Iconos con fondo transparente

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>manual/configuraciones_iniciales.png</file>
+        <file>manual/inicio_de_sesion.png</file>
+    </qresource>
+</RCC>

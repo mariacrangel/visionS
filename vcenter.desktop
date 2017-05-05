@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=vCenterViewer
+Comment=Central de visualizacion y manejo de camaras IP
+Exec=/opt/vCenterViewer/vCenterViewer/vCenterViewer -ui
+Path=/opt/vCenterViewer/vCenterViewer
+Icon=/opt/vCenterViewer/images/ico/vcenter_ico.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;Development;
